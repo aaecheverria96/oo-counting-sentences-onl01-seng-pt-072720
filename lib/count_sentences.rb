@@ -30,5 +30,6 @@ end
     split_string
     self.split(/[\".","?","!"]/)
     binding.pry
+    return split_string.count
   end
 end
