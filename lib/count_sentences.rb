@@ -28,6 +28,6 @@ end
 
   def count_sentences
     split_string = self.split(/["!"."?",\.]/)
-    return split_string.count{|string| string != " "}
+    return split_string.count{|string| string != ""}
   end
 end
