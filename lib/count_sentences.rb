@@ -27,7 +27,7 @@ end
   end
 
   def count_sentences
-    split_string = self.split(/[\.]/)
+    split_string = self.split(/[\W]/)
     binding.pry
     return split_string.count
   end
