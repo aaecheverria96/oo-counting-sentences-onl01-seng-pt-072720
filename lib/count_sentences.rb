@@ -27,7 +27,7 @@ end
   end
 
   def count_sentences
-    split_string - 
+    split_string -
     self.split(/[\".","?","!"]/)
     binding.pry
     return split_string.count
