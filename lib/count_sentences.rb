@@ -29,6 +29,6 @@ end
   def count_sentences
     split_string = self.split(/["!"."?",\.]/)
     binding.pry
-    return split_string.count
+    return split_string.count {|string| string == "the"}
   end
 end
